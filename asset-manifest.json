@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/atomic-spinner/static/js/main.c1c8ec7e.js",
-    "static/js/416.ae23cbe7.chunk.js": "/atomic-spinner/static/js/416.ae23cbe7.chunk.js",
+    "main.js": "/atomic-spinner/static/js/main.60ee47e8.js",
+    "static/js/807.1b6c647f.chunk.js": "/atomic-spinner/static/js/807.1b6c647f.chunk.js",
     "index.html": "/atomic-spinner/index.html",
-    "main.c1c8ec7e.js.map": "/atomic-spinner/static/js/main.c1c8ec7e.js.map",
-    "416.ae23cbe7.chunk.js.map": "/atomic-spinner/static/js/416.ae23cbe7.chunk.js.map"
+    "main.60ee47e8.js.map": "/atomic-spinner/static/js/main.60ee47e8.js.map",
+    "807.1b6c647f.chunk.js.map": "/atomic-spinner/static/js/807.1b6c647f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c1c8ec7e.js"
+    "static/js/main.60ee47e8.js"
   ]
 }
