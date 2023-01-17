@@ -19,7 +19,7 @@ const Electron = ({
       unusedColors = [...colorPalette];
     }
 
-    return unusedColors.pop();
+    return '#ffffff';
   };
 
   return (
