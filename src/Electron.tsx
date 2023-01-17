@@ -13,13 +13,13 @@ let unusedColors: string[] = []
 
 const Electron = ({
   pathDefinitionId, rotationAngle, orbitTime, spacetimeOffset, size, colorPalette
-}: ElectronProps) => {
-  const getNextElectronColor = () => {
+}: ElectronProps): JSX.Element => {
+  const getNextElectronColor = (): string => {
     if (unusedColors.length === 0) {
       unusedColors = [...colorPalette]
     }
 
-    return unusedColors.pop()
+    return unusedColors.pop() ?? '#000000'
   }
 
   return (

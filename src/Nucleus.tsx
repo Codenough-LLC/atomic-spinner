@@ -18,7 +18,7 @@ type NucleusLayerProps = NucleusProps & {
 
 const NucleusLayer = ({
   particleFillColor, particleBorderColor, particleBorderWidth, particlesPerLayer, particleSize, distanceFromCenter, orbitTime, startingAngle
-}: NucleusLayerProps) => {
+}: NucleusLayerProps): JSX.Element => {
   const particles: JSX.Element[] = Array.from({ length: particlesPerLayer })
     .map((_, i) => {
       const rotationAngle = startingAngle + i * ((2 * Math.PI) / particlesPerLayer)
@@ -71,7 +71,7 @@ const NucleusLayer = ({
   )
 }
 
-const Nucleus = (props: NucleusProps) => {
+const Nucleus = (props: NucleusProps): JSX.Element => {
   const angleIncrement = props.particlesPerLayer % 2 === 0
     ? Math.PI / 2 / Math.max(1, (props.layerCount - 1))
     : Math.PI / Math.max(1, (props.layerCount - 1))

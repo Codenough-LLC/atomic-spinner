@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
+  ignorePatterns: ['dist'],
   extends: [
     'plugin:react/recommended',
     'standard-with-typescript'
@@ -18,5 +19,10 @@ module.exports = {
     'react'
   ],
   rules: {
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 }

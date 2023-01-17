@@ -16,7 +16,7 @@
     "publish-npm": "pnpm clean && pnpm build && npm publish",
     "build-demo": "pnpm --prefix demo build",
     "deploy-demo": "pnpm build-demo && gh-pages -d demo/build",
-    "lint": "eslint .",
+    "lint": "eslint --ext .ts,.tsx .",
     "test": "pnpm cypress run --component",
     "test-interactive": "pnpm cypress open"
   },
