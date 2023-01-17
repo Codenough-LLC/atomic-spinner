@@ -14,6 +14,7 @@
     "clean": "rm -rf dist",
     "build": "webpack --mode=production",
     "publish-npm": "pnpm clean && pnpm build && npm publish",
+    "start-demo": "pnpm --prefix demo start",
     "build-demo": "pnpm --prefix demo build",
     "deploy-demo": "pnpm build-demo && gh-pages -d demo/build",
     "lint": "eslint --ext .ts,.tsx .",
