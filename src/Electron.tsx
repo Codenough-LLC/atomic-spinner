@@ -16,10 +16,10 @@ const Electron = ({
 }: ElectronProps) => {
   const getNextElectronColor = () => {
     if (!unusedColors.length) {
-      unusedColors = [...colorPalette];
+      unusedColors = [ ...colorPalette ];
     }
 
-    return '#ffffff';
+    return unusedColors.pop();
   };
 
   return (
